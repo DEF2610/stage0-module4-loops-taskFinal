@@ -10,7 +10,7 @@ public class Pyramid {
                         System.out.print(i2--);
                     else {
                         if (i2 == i + 1)
-                            System.out.print(" ");
+                            break;
                         else
                             System.out.print(i2++);
                     }
